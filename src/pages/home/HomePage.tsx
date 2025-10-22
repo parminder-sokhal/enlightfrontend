@@ -10,6 +10,7 @@ import Footer from '../../components/Footer';
 import TopHeader from '../../components/TopHeader';
 import PropertyCarousel from '../../components/home/PropertyCarousel';
 import TrendingYoutube from '../../components/home/TrendingYoutube';
+import GoogleReview from '../../components/home/GoogleReview';
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <FeaturedProjects />
       <PropertyCarousel />
       <TrendingYoutube/>
+      <GoogleReview/>
       <PropertiesByLocation />
       <PropertiesForSale />
       <PropertiesForRent />
