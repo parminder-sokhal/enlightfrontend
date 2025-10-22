@@ -8,7 +8,7 @@ import FeaturedAgents from '../../components/home/FeaturedAgents';
 import NewsSection from '../../components/home/NewsSection';
 import Footer from '../../components/Footer';
 import TopHeader from '../../components/TopHeader';
-// import PropertyCarousel from '../../components/home/PropertyCarousel';
+import PropertyCarousel from '../../components/home/PropertyCarousel';
 import TrendingYoutube from '../../components/home/TrendingYoutube';
 
 const HomePage = () => {
@@ -18,7 +18,7 @@ const HomePage = () => {
       <Navbar />
       <HeroSearch />
       <FeaturedProjects />
-      {/* <PropertyCarousel /> */}
+      <PropertyCarousel />
       <TrendingYoutube/>
       <PropertiesByLocation />
       <PropertiesForSale />
