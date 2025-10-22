@@ -48,7 +48,7 @@ const TrendingYoutube: React.FC = () => {
   if (links.length === 0) return null;
 
   return (
-    <div className="container mx-auto lg:px-32 px-6 py-15">
+    <div className="container mx-auto lg:px-32 px-6 py-20">
       <h2 className="sm:text-4xl text-3xl text-start mb-3">
         Enlight Real Estate Video channel
       </h2>
