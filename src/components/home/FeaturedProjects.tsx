@@ -6,32 +6,32 @@ const FeaturedProjects = () => {
       id: 1,
       title: 'Walnut Park Apartments',
       type: 'Apartment',
-      location: 'Chicago, IL',
-      image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800',
+      location: 'Thailand, Bangkok',
+      image: 'images/property2.jpeg',
       properties: 12
     },
     {
       id: 2,
       title: 'Sunshine Villas',
       type: 'Villa',
-      location: 'Miami, FL',
-      image: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800',
+      location: 'Bankkok, sathon',
+      image: 'images/property4.jpeg',
       properties: 8
     },
     {
       id: 3,
       title: 'Diamond Island',
       type: 'Condo',
-      location: 'New York, NY',
-      image: 'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=800',
+      location: 'Sukhumit, Thailand',
+      image: 'images/property11.jpeg',
       properties: 15
     },
     {
       id: 4,
       title: 'Merry Villas',
       type: 'Villa',
-      location: 'Los Angeles, CA',
-      image: 'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=800',
+      location: 'Ashoke, Thailand',
+      image: 'images/property13.jpeg',
       properties: 6
     }
   ];

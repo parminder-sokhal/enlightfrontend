@@ -4,33 +4,33 @@ const PropertiesByLocation = () => {
   const locations = [
     {
       id: 1,
-      name: 'New York',
+      name: 'Phuket',
       properties: 125,
-      image: 'https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/property1.jpeg'
     },
     {
       id: 2,
-      name: 'Los Angeles',
+      name: 'Laguna',
       properties: 98,
-      image: 'https://images.pexels.com/photos/1707310/pexels-photo-1707310.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/property2.jpeg'
     },
     {
       id: 3,
-      name: 'Chicago',
+      name: 'patong',
       properties: 87,
-      image: 'https://images.pexels.com/photos/1146642/pexels-photo-1146642.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/property4.jpeg'
     },
     {
       id: 4,
-      name: 'Miami',
+      name: 'Bangkok',
       properties: 76,
-      image: 'https://images.pexels.com/photos/358311/pexels-photo-358311.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/property5.jpeg'
     },
     {
       id: 5,
-      name: 'Houston',
+      name: 'Sathon',
       properties: 65,
-      image: 'https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/property6.jpeg'
     }
   ];
 

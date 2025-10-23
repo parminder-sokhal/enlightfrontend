@@ -4,91 +4,91 @@ const PropertiesForSale = () => {
   const properties = [
     {
       id: 1,
-      title: 'Luxury Villa in Manhattan',
+      title: 'Luxury Villa in Bankok',
       price: 2850000,
-      location: 'New York, NY',
+      location: 'Bankok',
       type: 'Villa',
       bedrooms: 5,
       bathrooms: 4,
       area: 4500,
-      image: 'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/banner.jpeg'
     },
     {
       id: 2,
-      title: 'Modern Apartment in Downtown',
+      title: 'Modern Apartment in Asok',
       price: 675000,
-      location: 'Los Angeles, CA',
+      location: 'Asok, Thailand',
       type: 'Apartment',
       bedrooms: 2,
       bathrooms: 2,
       area: 1200,
-      image: 'https://images.pexels.com/photos/2581922/pexels-photo-2581922.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/property7.jpeg'
     },
     {
       id: 3,
-      title: 'Beachfront Condo',
+      title: 'On Nut',
       price: 1250000,
-      location: 'Miami, FL',
+      location: 'Thailand',
       type: 'Condo',
       bedrooms: 3,
       bathrooms: 3,
       area: 2100,
-      image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/property13.jpeg'
     },
     {
       id: 4,
       title: 'Suburban Family Home',
       price: 485000,
-      location: 'Chicago, IL',
+      location: 'ploenchit, Thailand',
       type: 'House',
       bedrooms: 4,
       bathrooms: 3,
       area: 2800,
-      image: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/property12.jpeg'
     },
     {
       id: 5,
       title: 'Penthouse Suite',
       price: 3200000,
-      location: 'New York, NY',
+      location: 'Ratchadapisek, Thailand',
       type: 'Penthouse',
       bedrooms: 4,
       bathrooms: 4,
       area: 3500,
-      image: 'https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/Ratchadapisek.jpeg'
     },
     {
       id: 6,
       title: 'Cozy Studio Loft',
       price: 385000,
-      location: 'Los Angeles, CA',
+      location: 'sathon, Thailand',
       type: 'Studio',
       bedrooms: 1,
       bathrooms: 1,
       area: 800,
-      image: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/sathon.jpeg'
     },
     {
       id: 7,
       title: 'Ranch Style Estate',
       price: 1850000,
-      location: 'Houston, TX',
+      location: 'Bangna, Thailand',
       type: 'House',
       bedrooms: 6,
       bathrooms: 5,
       area: 5200,
-      image: 'https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/Bangna.jpeg'
     },
     {
       id: 8,
       title: 'Contemporary Townhouse',
       price: 795000,
-      location: 'Chicago, IL',
+      location: 'chiang mai, Thailand',
       type: 'Townhouse',
       bedrooms: 3,
       bathrooms: 2,
       area: 1850,
-      image: 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'images/chiangmai.jpeg'
     }
   ];
 
