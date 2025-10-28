@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const TopHeader = () => {
   return (
-    <div className="bg-blue-900 text-white text-sm py-2 px-4">
+    <div className="hidden lg:block bg-blue-900 text-white text-sm py-2 px-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Left Quote */}
         <p className="text-gray-100">
@@ -30,7 +30,7 @@ const TopHeader = () => {
           <button className="flex items-center space-x-1 hover:text-blue-300 transition">
             <User size={16} />
             <Link to="/signin" className="flex items-center space-x-1">
-            <span>Login</span>
+              <span>Login</span>
             </Link>
           </button>
         </div>
