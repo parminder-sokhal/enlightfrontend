@@ -1,4 +1,4 @@
-import { Plus, Menu } from "lucide-react";
+import { Plus, Menu, Heart, User, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -25,40 +25,22 @@ const MainNavbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
-            <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 font-medium"
-            >
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
               Projects
             </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 font-medium"
-            >
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
               Properties
             </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 font-medium"
-            >
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
               Agents
             </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 font-medium"
-            >
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
               News
             </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 font-medium"
-            >
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
               Careers
             </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 font-medium"
-            >
+            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
               Contact
             </a>
 
@@ -80,10 +62,11 @@ const MainNavbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* ✅ Mobile Menu (visible only below lg) */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white border-t">
+        <div className="md:hidden bg-white border-t shadow-inner">
           <div className="px-4 py-3 space-y-2">
+            {/* Main Nav Links */}
             <a href="#" className="block text-gray-700 hover:text-blue-600">
               Projects
             </a>
@@ -102,10 +85,42 @@ const MainNavbar = () => {
             <a href="#" className="block text-gray-700 hover:text-blue-600">
               Contact
             </a>
+
+            {/* Add Property Button */}
             <button className="flex w-full items-center space-x-2 justify-center bg-blue-600 text-white py-2 rounded-md">
               <Plus size={18} />
               <span>Add Property</span>
             </button>
+
+            {/* ✅ Added TopHeader elements for mobile only */}
+            <div className="border-t mt-4 pt-3 space-y-3">
+              {/* Wishlist */}
+              <button className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition">
+                <Heart size={16} />
+                <span>Wishlist (0)</span>
+              </button>
+
+              {/* Language Selector */}
+              <div className="flex items-center space-x-1 text-gray-700 hover:text-blue-600 cursor-pointer">
+                <span>English</span>
+                <ChevronDown size={14} />
+              </div>
+
+              {/* Currency Selector */}
+              <div className="flex items-center space-x-1 text-gray-700 hover:text-blue-600 cursor-pointer">
+                <span>USD</span>
+                <ChevronDown size={14} />
+              </div>
+
+              {/* Login */}
+              <Link
+                to="/signin"
+                className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition"
+              >
+                <User size={16} />
+                <span>Login</span>
+              </Link>
+            </div>
           </div>
         </div>
       )}
