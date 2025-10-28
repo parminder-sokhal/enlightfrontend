@@ -1,4 +1,5 @@
 import { Heart, User, ChevronDown } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const TopHeader = () => {
   return (
@@ -28,7 +29,9 @@ const TopHeader = () => {
 
           <button className="flex items-center space-x-1 hover:text-blue-300 transition">
             <User size={16} />
+            <Link to="/signin" className="flex items-center space-x-1">
             <span>Login</span>
+            </Link>
           </button>
         </div>
       </div>

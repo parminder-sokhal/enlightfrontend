@@ -19,7 +19,7 @@ const HomePage = () => {
       <Navbar />
       <HeroSearch />
       <FeaturedProjects />
-      <PropertyCarousel />
+      {/* <PropertyCarousel /> */}
       <TrendingYoutube/>
       <GoogleReview/>
       <PropertiesByLocation />
